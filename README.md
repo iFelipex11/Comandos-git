@@ -72,7 +72,7 @@ Para unir Github con SSH local
 -------------------
 Despues copiamos el link de github pero en la opcion ssh
 y antes debimos haber agregado las llaves en configuraciones y la opcion ssh y gpg keys en la cual añadimos rsa.pub ya que es la llave publica
-set-url sirve para cambiar la url en este caso de https a ssh despues origin y por ultimo el link
+git remote set-url sirve para cambiar la url en este caso de https a ssh despues origin y por ultimo el link
 
 Rebase
 ------------------------------
@@ -135,4 +135,6 @@ git blame Css/estilos.css -L35,53 -c De esta forma podemos ver todo identado
 git branch -r nos muestra las ramas remotas
 git branch -a muestra todas las locales y remotas
 
-
+Pagina recomendada para Modificar los .md
+--------------------------------------
+https://pandao.github.io/editor.md/en.html
