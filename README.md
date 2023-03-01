@@ -1,5 +1,6 @@
 Comandos para un Repositorio Local
 ----------------------------
+
 git init: para inicializar el repositorio git y el staged
 git add nombre_del_archivo.txt: enviar el archivo al staged
 git status: ver el estado, si se requiere agregar al starget o si se requiere commit
@@ -35,6 +36,7 @@ Si agregamos un commit erroneo o nos falto informacion en ese commit hacemos un 
 git merge nombre-de-la-rama fusiona dos ramas o por asi decirlo trae los cambios de una a otra
 Con git branch -d (rama) se elimina cualquier rama del repositorio
 Tags
+
 ------------------------------------------------------
 Tags: Los tags nos indican una version de forma especial ya que los tags son unicos al igual que las versiones pero podemos agregar el nombre que queramos
 Crear un nuevo tag y asignarlo a un commit: git tag -a nombre-del-tag id-del-commit.
