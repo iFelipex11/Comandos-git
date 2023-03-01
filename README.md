@@ -1,5 +1,5 @@
-Comandos para un Repositorio Local
-----------------------------
+#Comandos para un Repositorio Local
+
 git init: para inicializar el repositorio git y el staged
 git add nombre_del_archivo.txt: enviar el archivo al staged
 git status: ver el estado, si se requiere agregar al starget o si se requiere commit
