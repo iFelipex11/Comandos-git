@@ -2,41 +2,106 @@ Comandos para un Repositorio Local
 ----------------------------
 
 git init: para inicializar el repositorio git y el staged
-git add nombre_del_archivo.txt: enviar el archivo al staged
-git status: ver el estado, si se requiere agregar al starget o si se requiere commit
-git config --list: para ver la lista de configuraciones hechas
-git config --list --show-origin: para mostrar las configuraciones y sus rutas
-git config -l: Sirve para mostrar una lista de configuraciones uno de los usos mas utiles es ver el user.name y el user.email
-git rm --cached nombre_del_archivo.txt: para eliminar el archivo del staged(ram)
-git rm nombre_del_archivo.txt: para eliminar del repositorio
-git add: agregar un archivo a staging.
-git commit -m “mensaje”: guardar el archivo en git con un mensaje.
-git branch: crear una nueva rama.
-git checkout: moverse entre ramas.
-git diff “codigo de version 1” “codigo de version 2”: comparar cambios entre versiones.
-git diff: comparar directorio con staging.
-Si por algún motivo te equivocaste en el nombre o email que configuraste al principio, lo puedes modificar de la siguiente manera:
-git config --global --replace-all user.name “Aquí va tu nombre modificado”
-O si lo deseas eliminar y añadir uno nuevo
-git config --global --unset-all user.name :Elimina el nombre del usuario
-git config --global --add user.name “Aquí va tu nombre”
-git config --global --add user.email “Aquí va tu email”
-git show: nos muestra todos los cambios del archivo en cuanto a contenido se refiere
-git log nombre_de_archivos.extensión: histórico de cambios con detalles
-ls: listado de carpetas en donde me encuentro. Es decir, como emplear dir en windows.
-ls -al hace un listado de archivos otras formas es ls -l o ls -a
-pwd: ubicación actual
-mkdir: make directory nueva carpeta
-touch archivo.extensión: crear archivo vacío
-cat archivo.extensión: muestra el contenido del archivo
-history: historial de comandos utilizados durante esa sesión
-rm archivo.extensión: Eliminación de archivo
-comando --help: ayuda sobre el comando
-Si agregamos un commit erroneo o nos falto informacion en ese commit hacemos un git commit --amend
-git merge nombre-de-la-rama fusiona dos ramas o por asi decirlo trae los cambios de una a otra
-Con git branch -d (rama) se elimina cualquier rama del repositorio
-Tags
 
+
+git add nombre_del_archivo.txt: enviar el archivo al staged
+
+
+git status: ver el estado, si se requiere agregar al starget o si se requiere commit
+
+
+git config --list: para ver la lista de configuraciones hechas
+
+
+git config --list --show-origin: para mostrar las configuraciones y sus rutas
+
+
+git config -l: Sirve para mostrar una lista de configuraciones uno de los usos mas utiles es ver el user.name y el user.email
+
+
+git rm --cached nombre_del_archivo.txt: para eliminar el archivo del staged(ram)
+
+
+git rm nombre_del_archivo.txt: para eliminar del repositorio
+
+
+git add: agregar un archivo a staging.
+
+
+git commit -m “mensaje”: guardar el archivo en git con un mensaje.
+
+
+git branch: crear una nueva rama.
+
+
+git checkout: moverse entre ramas.
+
+
+git diff “codigo de version 1” “codigo de version 2”: comparar cambios entre versiones.
+
+
+git diff: comparar directorio con staging.
+
+
+Si por algún motivo te equivocaste en el nombre o email que configuraste al principio, lo puedes modificar de la siguiente manera:
+
+
+git config --global --replace-all user.name “Aquí va tu nombre modificado
+O si lo deseas eliminar y añadir uno nuevo
+
+
+git config --global --unset-all user.name :Elimina el nombre del usuario
+
+
+git config --global --add user.name “Aquí va tu nombre”
+
+
+git config --global --add user.email “Aquí va tu email”
+
+
+git show: nos muestra todos los cambios del archivo en cuanto a contenido se refiere
+
+
+git log nombre_de_archivos.extensión: histórico de cambios con detalles
+
+
+ls: listado de carpetas en donde me encuentro. Es decir, como emplear dir en windows.
+
+
+ls -al hace un listado de archivos otras formas es ls -l o ls -a
+
+
+pwd: ubicación actual
+
+
+mkdir: make directory nueva carpeta
+
+
+touch archivo.extensión: crear archivo vacío
+
+
+cat archivo.extensión: muestra el contenido del archivo
+
+
+history: historial de comandos utilizados durante esa sesión
+
+
+rm archivo.extensión: Eliminación de archivo
+
+
+comando --help: ayuda sobre el comando
+
+
+Si agregamos un commit erroneo o nos falto informacion en ese commit hacemos un git commit --amend
+
+
+git merge nombre-de-la-rama fusiona dos ramas o por asi decirlo trae los cambios de una a otra
+
+
+Con git branch -d (rama) se elimina cualquier rama del repositorio
+
+
+Tags
 ------------------------------------------------------
 Tags: Los tags nos indican una version de forma especial ya que los tags son unicos al igual que las versiones pero podemos agregar el nombre que queramos
 Crear un nuevo tag y asignarlo a un commit: git tag -a nombre-del-tag id-del-commit.
